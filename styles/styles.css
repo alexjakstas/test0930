@@ -9,10 +9,25 @@ body{
     background-color: blanchedalmond;
     width: 100vw;
     height: 100vh;
-z-index: -2;
+    z-index: -2;
 }
 .wrapper {
     display: flex;
     justify-content: space-between;
     padding: 2rem;
+    color: white;
+    font-size:large;
+
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li {
+    list-style-type: none;
+    padding: 1rem;
+}
+a {
+    text-decoration: none;
 }
