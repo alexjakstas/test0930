@@ -10,11 +10,23 @@ body{
     width: 100vw;
     height: 100vh;
     z-index: -2;
+    top: 0;
+    left: 0;
+
 }
-.wrapper {
+.logo {
+    font-size: 1.5rem;
+    margin: auto 1rem;
+
+}
+.nav {
+    height: 3.2rem;
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
+    align-items: center;
+
+}
+.wrapper {   
     color: white;
     font-size:large;
 
@@ -24,10 +36,17 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
 li {
     list-style-type: none;
-    padding: 1rem;
 }
 a {
     text-decoration: none;
+     color: #ffffff;
+    padding: 1rem;
+    display: block;
 }
